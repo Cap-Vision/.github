@@ -1,6 +1,7 @@
-name: Task
+name: ⚒ Task
 description: Travail technique à réaliser
 type: Task
+title: 'task: '
 body:
   - type: markdown
     attributes:

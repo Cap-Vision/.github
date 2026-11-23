@@ -1,6 +1,7 @@
-name: Test
+name: 🧪 Test
 description: Test à réaliser
 type: Test
+title: 'test: '
 body:
   - type: textarea
     id: description

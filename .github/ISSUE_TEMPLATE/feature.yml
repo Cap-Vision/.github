@@ -1,6 +1,7 @@
-name: Feature
+name: ⭐ Feature
 description: Nouvelle fonctionnalité ou évolution
 type: Feature
+title: 'feature: '
 body:
   - type: textarea
     id: contexte-objectif
