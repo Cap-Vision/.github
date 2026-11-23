@@ -1,0 +1,23 @@
+name: Demande Client
+description: Demande client, avant d'être transformée en tâche technique
+type: Demande Client
+body:
+  - type: input
+    id: client
+    attributes:
+      label: Client
+    validations:
+      required: false
+  - type: textarea
+    id: demande
+    attributes:
+      label: Demande
+      description: Le besoin exprimé par le client.
+    validations:
+      required: true
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte
+    validations:
+      required: false

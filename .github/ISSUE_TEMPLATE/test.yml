@@ -1,0 +1,23 @@
+name: Test
+description: Test à réaliser
+type: Test
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Ce que le test vérifie.
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes
+    validations:
+      required: true
+  - type: textarea
+    id: resultat-attendu
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true

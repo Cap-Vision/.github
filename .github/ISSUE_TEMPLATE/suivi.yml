@@ -1,0 +1,10 @@
+name: Suivi
+description: Suivi de projet (regroupement, retours, idées)
+type: Suivi
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true

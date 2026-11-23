@@ -1,0 +1,34 @@
+name: Task
+description: Travail technique à réaliser
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: "## Fonctionnel"
+  - type: textarea
+    id: contexte-objectif
+    attributes:
+      label: Contexte et objectif
+    validations:
+      required: false
+  - type: textarea
+    id: cas-usage
+    attributes:
+      label: Cas d'usage
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## Technique"
+  - type: textarea
+    id: developpement-a-realiser
+    attributes:
+      label: Développement à réaliser
+    validations:
+      required: false
+  - type: textarea
+    id: explication-developpement-parametrage
+    attributes:
+      label: Explication du développement et paramétrage à faire
+    validations:
+      required: false

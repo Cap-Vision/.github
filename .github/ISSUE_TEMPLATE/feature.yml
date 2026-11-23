@@ -1,0 +1,16 @@
+name: Feature
+description: Nouvelle fonctionnalité ou évolution
+type: Feature
+body:
+  - type: textarea
+    id: contexte-objectif
+    attributes:
+      label: Contexte et objectif
+    validations:
+      required: true
+  - type: textarea
+    id: cas-usage
+    attributes:
+      label: Cas d'usage
+    validations:
+      required: false
