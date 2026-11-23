@@ -1,6 +1,7 @@
-name: Bug
+name: 🐞 Bug
 description: Signaler un comportement inattendu
 type: Bug
+title: 'bug: '
 body:
   - type: input
     id: version

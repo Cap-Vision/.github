@@ -1,6 +1,7 @@
-name: Suivi
+name: 🔍 Suivi
 description: Suivi de projet (regroupement, retours, idées)
 type: Suivi
+title: 'suivi: '
 body:
   - type: textarea
     id: description

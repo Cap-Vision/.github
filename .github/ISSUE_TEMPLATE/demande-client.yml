@@ -1,6 +1,7 @@
-name: Demande Client
+name: 🙏 Demande Client
 description: Demande client, avant d'être transformée en tâche technique
 type: Demande Client
+title: 'demande: '
 body:
   - type: input
     id: client
